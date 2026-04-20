@@ -10,5 +10,9 @@
   "installCommand": "cd frontend && npm install --include=dev",
   "buildCommand": "cd frontend && npm run build",
   "outputDirectory": "frontend/dist",
-  "rootDirectory": "frontend"
+  "build": {
+    "env": {
+      "NODE_VERSION": "18"
+    }
+  }
 }
