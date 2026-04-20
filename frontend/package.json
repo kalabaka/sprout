@@ -1,0 +1,29 @@
+{
+  "name": "learning-planning-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "axios": "^1.6.8",
+    "dompurify": "^3.4.0",
+    "echarts": "^6.0.0",
+    "element-plus": "^2.13.7",
+    "marked": "^18.0.0",
+    "pinia": "^3.0.4",
+    "vue": "^3.4.21",
+    "vue-echarts": "^8.0.1",
+    "vue-router": "^4.3.0",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^9.39.4",
+    "eslint-plugin-vue": "^10.8.0",
+    "vite": "^5.2.0"
+  }
+}

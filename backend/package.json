@@ -1,0 +1,37 @@
+{
+  "name": "learning-planning-agent",
+  "version": "1.0.0",
+  "description": "面向大学生的个人学习规划智能体系统后端",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "learning",
+    "planning",
+    "agent",
+    "education"
+  ],
+  "author": "廖洪雨",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.15.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "multer": "^2.1.1",
+    "mysql2": "^3.6.5",
+    "node-cron": "^3.0.3",
+    "openai": "^6.34.0",
+    "uuid": "^9.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

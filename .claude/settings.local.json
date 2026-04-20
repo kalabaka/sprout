@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import pdfplumber; print\\('available'\\)\")",
+      "Bash(pip install:*)",
+      "Bash(python -c \"import pdfplumber; print\\('ok'\\)\")",
+      "Bash(python -c \" import pdfplumber with pdfplumber.open\\(r'C:\\\\Users\\\\Lenovo\\\\Desktop\\\\面向大学生的个人学习规划智能体系统的设计与实现-2406831021-廖洪雨.pdf'\\) as pdf: for i, page in enumerate\\(pdf.pages\\): text = page.extract_text\\(\\) if text: print\\(f'=== Page {i+1} ==='\\) print\\(text[:3000]\\) print\\(\\) \")",
+      "Bash(node src/utils/planningAgent.js)",
+      "Bash(node -e ':*)",
+      "Bash(node src/utils/evaluationAgent.js)",
+      "Bash(node -e \"require\\('./src/app.js'\\)\")",
+      "WebFetch(domain:minimax-algeng-chat-tts.oss-cn-wulanchabu.aliyuncs.com)",
+      "Bash(rm -rf node_modules package-lock.json)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(npm -v)",
+      "Bash(curl -s http://localhost:3000/api/test)",
+      "Bash(mysql -u root -proot)",
+      "Bash(mysql -u root -proot -e \"SET FOREIGN_KEY_CHECKS=0; SOURCE e:/code/sprout/backend/src/sql/database.sql; SET FOREIGN_KEY_CHECKS=1;\")",
+      "Bash(mysql -u root -proot -e \"USE learning_planning; SHOW TABLES;\")"
+    ]
+  }
+}
